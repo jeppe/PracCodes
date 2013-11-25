@@ -12,7 +12,7 @@ sd( abs( rv )) # return standard variance
 
 #part _ definition of func
 #func oddcount : count the number of odd integers in vector x
-
+#
 oddcount <- function(x) {
   k <- 0 #assign 0 to k
   
