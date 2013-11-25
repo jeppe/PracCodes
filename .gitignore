@@ -8,6 +8,10 @@ sparseae_exercise
 #images
 *.png
 
+#files created by RStudio
+*.RData
+*.Rout
+
 # Packages
 *.egg
 *.egg-info
