@@ -1,0 +1,47 @@
+
+R version 3.0.2 (2013-09-25) -- "Frisbee Sailing"
+Copyright (C) 2013 The R Foundation for Statistical Computing
+Platform: i386-w64-mingw32/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #Begin R language from learning basic knowledge
+> 
+> #basic statistical operations
+> #mean = mean
+> #sd = standard variance
+> 
+> rv = rnorm(100) # create a vector including 100 random variable
+> mean( abs( rv )) # call mean() to return the mean value of rv
+[1] 0.7675637
+> sd( abs( rv )) # return standard variance
+[1] 0.6355457
+> 
+> #part _ definition of func
+> #func oddcount : count the number of odd integers in vector x
+> 
+> #oddcount <- function(x) {
+> #  k <- 0 #assign 0 to k
+>   
+> #  for (n in x) {
+> #    if (n %% 2 == 1) k <- k + 1 # %% is the modulo operator
+> #  }
+>   
+> #  return k
+> #}
+> 
+> #oddcount(c(1, 3, 5)) # c stands for concatenate, by calling this function, limited variables could be connected
+> 
+> proc.time()
+   user  system elapsed 
+   0.45    0.14    0.57 
