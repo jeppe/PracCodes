@@ -1,6 +1,9 @@
 # C extensions
 *.so
+
+# executed program
 execute
+*.exe
 
 #folders
 
