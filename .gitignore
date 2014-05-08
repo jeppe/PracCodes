@@ -1,9 +1,11 @@
 # C extensions
 *.so
+execute
 
 #folders
-naviesvm
-sparseae_exercise
+
+#code block project name
+
 
 #images
 *.png
